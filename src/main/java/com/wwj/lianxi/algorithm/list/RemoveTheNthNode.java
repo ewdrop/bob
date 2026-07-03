@@ -1,4 +1,4 @@
-package com.wwj.lianxi.algorithm;
+package com.wwj.lianxi.algorithm.list;
 
 public class RemoveTheNthNode {
     /**

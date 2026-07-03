@@ -1,7 +1,4 @@
-package com.wwj.lianxi.algorithm;
-
-import java.util.HashMap;
-import java.util.Map;
+package com.wwj.lianxi.algorithm.list;
 
 public class LengthOfLongestSubString {
 
