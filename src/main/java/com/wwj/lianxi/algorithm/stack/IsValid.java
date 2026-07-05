@@ -22,9 +22,9 @@ public class IsValid {
      *          }
      *
      *     private static boolean isMarch(char left, char right) {
-     *         return (left == '(' && right == ')' ||
-     *                 left == '{' && right == '}' ||
-     *                 left == '[' && right == ']');
+     *         return (left == '(' && right == ')') ||
+     *                (left == '{' && right == '}' )||
+     *                (left == '[' && right == ']');
      *         }
      */
 }
