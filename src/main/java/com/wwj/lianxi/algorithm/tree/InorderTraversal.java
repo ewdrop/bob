@@ -2,24 +2,6 @@ package com.wwj.lianxi.algorithm.tree;
 
 public class InorderTraversal {
     /**
-     * public static class TreeNode{
-     *         int val;
-     *         TreeNode left;
-     *         TreeNode right;
-     *
-     *         public TreeNode() {
-     *         }
-     *
-     *         public TreeNode(int val) {
-     *             this.val = val;
-     *         }
-     *
-     *         public TreeNode(int val, TreeNode left, TreeNode right) {
-     *             this.val = val;
-     *             this.left = left;
-     *             this.right = right;
-     *         }
-     *     }
      *     <----------------中序遍历，迭代实现------------------>
      *     public static List<Integer> inorderTraversal(TreeNode root) {
      *         List<Integer> result = new ArrayList<>();
