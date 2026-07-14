@@ -14,14 +14,18 @@ public class RemoveTheNthNode {
      *             System.out.println(temp.val);
      *             temp = temp.next;
      *         }
+     *
+     *         <---------------------题解---------------------->
+     *             //快慢指针都代表节点而非值
      * public static ListNode removeTheNthNode(ListNode head, int n) {
      *         ListNode dummy = new ListNode(0, head);
-     *         ListNode fast = dummy;
-     *         ListNode slow = dummy;
+     *         ListNode fast = dummy;//快指针，先走N步
+     *         ListNode slow = dummy;//慢指针
      *
      *         for (int i = 0; i < n; i++) {
      *             fast = fast.next;
      *         }
+     *         //条件为快指针有后继节点则说明链表没走到头
      *         while (fast.next != null){
      *             fast = fast.next;
      *             slow = slow.next;

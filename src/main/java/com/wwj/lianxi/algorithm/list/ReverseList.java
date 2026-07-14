@@ -31,8 +31,8 @@ public class ReverseList {
      *     }
      *
      *     static ListNode reverseList(ListNode head){
-     *         ListNode prev = null;
-     *         ListNode curr = head;
+     *         ListNode prev = null;//开始是空，结束是头节点
+     *         ListNode curr = head;//开始是头节点，结束是空
      *
      *         while (curr != null){
      *             //先保存头节点的后继，避免链表丢失
