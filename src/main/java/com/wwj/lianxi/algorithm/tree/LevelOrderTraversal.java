@@ -12,6 +12,7 @@ public class LevelOrderTraversal {
      *         root.right.right = new TreeNode(4);
      *         List<List<Integer>> result = levelOrderTraversal(root);
      *         System.out.println(result);
+     *
      * public static List<List<Integer>> levelOrderTraversal(TreeNode root) {
      *         List<List<Integer>> result = new ArrayList<>();
      *         if (root == null) return result;

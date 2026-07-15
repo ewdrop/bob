@@ -15,11 +15,11 @@ public class PostorderTraversal {
      *             //后续遍历左右根，根在输出栈最底部最后出
      *             output.push(current);
      *             //右边元素出栈顺序为第二位，栈的特性后进先出，所以要在比第一位的左元素先入栈
-     *             if (current.right != null) {
-     *                 output.push(current.right);
-     *             }
      *             if (current.left != null) {
-     *                 output.push(current.left);
+     *                 stack.push(current.left);//入栈错误，此处应为工作栈stack，应先左后右
+     *             }
+     *             if (current.right != null) {
+     *                 stack.push(current.right);
      *             }
      *         }
      *         while (!output.isEmpty()) {
